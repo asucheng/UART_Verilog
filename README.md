@@ -25,4 +25,8 @@ When all bits, including the stop bit, have been transmitted, the TX module retu
 ## **RTL simulation of UART module**
 
 ![Screenshot 2025-06-20 133436](https://github.com/user-attachments/assets/5428b208-c40b-4a57-9853-ba1e65cec91e)
+
+## **AXIS**
+
+Integrating an AXI Stream wrapper around the RX and TX modules enhances the versatility of the UART module, allowing it to interface seamlessly with other AXI Stream–enabled IP blocks, such as an AXIS Data FIFO.
  
